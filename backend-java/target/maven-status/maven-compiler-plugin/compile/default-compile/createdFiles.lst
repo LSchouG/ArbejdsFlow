@@ -1,0 +1,5 @@
+com/arbejdsflow/backend/controller/ProjectController.class
+com/arbejdsflow/backend/service/ProjectService.class
+com/arbejdsflow/backend/repository/ProjectRepository.class
+com/arbejdsflow/backend/ArbejdsflowBackendApplication.class
+com/arbejdsflow/backend/model/Project.class
