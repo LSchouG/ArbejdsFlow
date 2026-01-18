@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 import { Colors, Fonts } from '@/constants/theme';
 
-export const Styles = (colorScheme: 'light' | 'dark') =>
+const Styles = (colorScheme: 'light' | 'dark') =>
   StyleSheet.create({
     container: {
       alignItems: 'center',
@@ -25,4 +25,31 @@ export const Styles = (colorScheme: 'light' | 'dark') =>
       backgroundColor: 'black',
       width: '100%',
     },
+button: {
+  width: '17%',
+  marginTop: 20,
+  padding: 10,
+  alignItems: 'center',
+  justifyContent: 'center',
+  backgroundColor: Colors[colorScheme].headingText,
+  borderRadius: 5,
+},
+
+buttonText: {
+  color: Colors[colorScheme].background,
+  fontSize: 16,
+  fontWeight: '600',
+},
+sectionDashBoard: {
+  marginTop: 20,
+  width: 300,
+  height: 300,
+  borderRadius: 2,
+  borderColor: 'black' ,
+  borderWidth: 1,
+  padding: 15,
+},
+
   });
+
+export default Styles;
